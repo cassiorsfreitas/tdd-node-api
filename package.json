@@ -6,6 +6,7 @@
   "scripts": {
     "test": "jest --passWithNoTests",
     "test:staged": "npm test --findRelatedTests",
+    "test:unit": "npm test -- --watch",
     "prepare": "husky install"
   },
   "keywords": [],

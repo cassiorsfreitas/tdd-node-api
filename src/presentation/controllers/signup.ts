@@ -1,5 +1,5 @@
-import { HttpRequest, HttpResponse } from '../protocols/http'
-import { Controller } from '../protocols/controller'
+import { HttpRequest, HttpResponse } from '../interfaces/http'
+import { Controller } from '../interfaces/controller'
 import { MissingParamError } from '../errors/missing-param-error'
 import { badRequest } from '../helpers/http-helper'
 

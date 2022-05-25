@@ -1,5 +1,5 @@
-import { AccountModel, AddAccountModel, Encrypter, AddAccountRepository } from '@/data/usecases/add-acount/db-add-account.interface'
-import { DbAddAccount } from '@/data/usecases/add-acount/db-add-account'
+import { AccountModel, AddAccountModel, Encrypter, AddAccountRepository } from '@/data/usecases/add-account/db-add-account.interface'
+import { DbAddAccount } from '@/data/usecases/add-account/db-add-account'
 
 interface SutTypes {
   sut: DbAddAccount

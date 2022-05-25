@@ -8,6 +8,7 @@ module.exports = {
     '!<rootDir>/src/data/usecases/add-account/db-add-account.interface.ts',
     '!<rootDir>/src/presentation/controllers/signup/signup.interface.ts'
   ],
+  preset: '@shelf/jest-mongodb',
   coverageDirectory: 'coverage',
   coverageProvider: 'babel',
   testEnvironment: 'node',

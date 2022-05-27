@@ -1,3 +1,4 @@
+// import { AccountModel } from '@/domain/models/account.interface'
 import { MongoClient, Collection } from 'mongodb'
 
 export const MongoHelper = {
@@ -26,4 +27,5 @@ export const MongoHelper = {
   mapCollection: (collection: any[]): any[] => {
     return collection.map(c => MongoHelper.map(c))
   }
+
 }
